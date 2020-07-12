@@ -1,0 +1,27 @@
+<alert type="info">Proprietry Reserved By raghavswaroop</alert>
+<h1>Welcome to Swaroop  Pixbay Search</h1>
+<input class="search" [(ngModel)]="searchkeytag" placeholder="enter search parameter">
+
+<button (click)="searchimage(searchkeytag)" type="button">Find Images </button>
+
+
+
+<div *ngFor="let image of images" class="imageRenderer">
+  <p> Tags: {{image.tags}}</p>
+  <img src="{{image.webformatURL}}" />
+
+</div>
+
+
+
+  <!--<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Favorite food</mat-label>
+      <input matInput placeholder="Ex. Pizza" value="Sushi">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+  </form>-->

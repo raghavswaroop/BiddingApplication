@@ -136,6 +136,8 @@
     <Content Include="AngularClient\src\app\app.component.css" />
     <Content Include="AngularClient\src\app\app.component.html" />
     <Content Include="AngularClient\src\app\app.componentTest.html" />
+    <Content Include="AngularClient\src\app\imageRenderer\imageRenderer.component.html" />
+    <Content Include="AngularClient\src\app\imageRenderer\imageRenderer.component.css" />
     <Content Include="AngularClient\src\favicon.ico" />
     <Content Include="AngularClient\src\index.html" />
     <Content Include="AngularClient\src\styles.css" />
@@ -228,10 +230,13 @@
     <TypeScriptCompile Include="AngularClient\src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="AngularClient\src\app\app.component.ts" />
     <TypeScriptCompile Include="AngularClient\src\app\app.module.ts" />
+    <TypeScriptCompile Include="AngularClient\src\app\imageRenderer\imageRenderer.component.ts" />
+    <TypeScriptCompile Include="AngularClient\src\app\material.module.ts" />
     <TypeScriptCompile Include="AngularClient\src\environments\environment.prod.ts" />
     <TypeScriptCompile Include="AngularClient\src\environments\environment.ts" />
     <TypeScriptCompile Include="AngularClient\src\main.ts" />
     <TypeScriptCompile Include="AngularClient\src\polyfills.ts" />
+    <TypeScriptCompile Include="AngularClient\src\Shared\Image.Service.ts" />
     <TypeScriptCompile Include="AngularClient\src\test.ts" />
   </ItemGroup>
   <PropertyGroup>
